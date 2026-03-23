@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0a0a0a; /* Matches the dark brand aesthetic */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  .stroke-text { -webkit-text-stroke: 1.5px #111; color: transparent; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
